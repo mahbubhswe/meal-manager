@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.item {
+  border-radius: 25px;
+  box-shadow: 4px 4px 25px 0 rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(to right, #ffffff, #e6e7e8);
+  margin-bottom: 15px;
+  transition: all 0.5s;
+}
+.item:hover {
+  transform: scale(1.1);
+  background-image: linear-gradient(to right, #ffffff, #ffffff);
+}
+.uiItem {
+  border-radius: 25px;
+  box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(to right, #ffffff, #e6e7e8);
+  margin: 20px;
+  transition: all 0.5s;
+}
+.uiItem:hover {
+  transform: scale(1.1);
+  background-image: linear-gradient(to right, #ffffff, #ffffff);
+}
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #ff6e7f 0%,
+    #bfe9ff 51%,
+    #ff6e7f 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-grad1 {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(14, 14, 14);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad1:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #131212;
+  text-decoration: none;
+}
